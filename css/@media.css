@@ -1,0 +1,136 @@
+@media (max-width: 1024px) {
+    nav {
+        padding: 20px;
+        height: 80px;
+    }
+
+    .nav-right .nav-links {
+        display: none;
+    }
+
+    .page1 {
+        padding-top: 150px;
+    }
+
+    .page1 h1 {
+        font-size: 18vw;
+        line-height: 16vw;
+    }
+
+    .page3 {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .page3 .left,
+    .page3 .right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .page3 .left h1 {
+        font-size: 8vw;
+        line-height: 8vw;
+        margin-bottom: 30px;
+    }
+
+    .page3 .right p {
+        font-size: 2.5vw;
+        line-height: 3vw;
+        margin-bottom: 20px;
+    }
+
+    .page3 .right .btn #btn {
+        font-size: 1.5vw;
+        width: 100%;
+    }
+
+    .page2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .page2 .elem {
+        width: 80%;
+        height: 500px;
+    }
+
+    .page4 {
+        gap: 20px;
+        margin: 50px 0;
+    }
+
+    .product {
+        width: 90vw;
+    }
+
+    .product .img-details h4 {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+
+    footer {
+        padding: 50px 20px 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-left svg {
+        width: 80px;
+    }
+
+    .page1 h1 {
+        font-size: 15vw;
+        line-height: 14vw;
+        text-wrap: wrap;
+    }
+
+    .page2 .elem {
+        width: 100%;
+        height: 350px;
+    }
+
+    .img-bag {
+        width: 90%;
+    }
+
+    .img-bag .bag-details {
+        width: 100%;
+        padding: 0 15px;
+        font-size: 10px;
+    }
+
+    .page3 .left h1 {
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+
+    .page3 .right p {
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+
+    .page3 .right .btn #btn {
+        font-size: 4.5vw;
+    }
+
+    .product .img-details h4 {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .cursor {
+        display: none;
+    }
+}
